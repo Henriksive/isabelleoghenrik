@@ -4,3 +4,11 @@
   padding: 2rem;
   text-align: center;
 }
+
+.frame {
+  width: 600px;
+}
+
+.subFrame {
+  border-bottom: 1px solid gray;
+}
