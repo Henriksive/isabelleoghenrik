@@ -4,12 +4,33 @@ function App() {
   return (
     <>
       <div className="frame">
-        <h2>Vi gifter oss</h2>
+        <h1>Vi gifter oss ❤️</h1>
+        <p>30.08.2025</p>
       </div>
       <div className="frame">
         <h2>Praktisk informasjon</h2>
         <div className="subFrame">
           <h3>Kjøreplan</h3>
+          <h4>Fredag</h4>
+          <p>
+            Vi inviterer på låvequiz med snacks og drikke slik at alle kan bli
+            litt bedre kjent med hverandre. Vi har bestilt varmt vær, men ta med
+            varme klær og ullgenser.
+          </p>
+          <h4>Lørdag</h4>
+          <p>
+            Vielsen finner sted ved XXX klokken ZZ:YY. Parkering tilgjengelig
+            ved: Google Maps
+          </p>
+          <p>
+            Mottakelsen av brudeparet skjer på XXX klokken ZZ:YY. Parkering
+            tilgjengelig ved: Google Maps
+          </p>
+          <h4>Søndag</h4>
+          <p>
+            Det blir en frivillig debrief etter dagen og natten ved XXX fra og
+            med klokken ZZ:YY for de som ønsker.
+          </p>
         </div>
         <div className="subFrame">
           <h3>Overnatting</h3>
@@ -89,6 +110,9 @@ function App() {
         <div className="subFrame">
           <h3>Kleskode</h3>
         </div>
+      </div>
+      <div className="frame">
+        <h2>Kontaktinformasjon</h2>
       </div>
       <div className="frame">
         <h2>Ønskeliste</h2>
