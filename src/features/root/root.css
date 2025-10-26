@@ -30,7 +30,7 @@
   height: 70px;
   text-align: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -53,6 +53,15 @@
 }
 
 .header .blomst {
+  height: 70px; /* Samme som header-høyden */
+  overflow: hidden; /* Hindrer at bildet stikker utenfor */
+}
+
+.header .blomst img {
+  height: 100%;
+  object-fit: cover; /* eller 'cover' hvis du vil fylle helt */
+  object-position: center;
+  display: block; /* fjerner eventuelt mellomrom under bildet */
 }
 
 .header .linkContainer {

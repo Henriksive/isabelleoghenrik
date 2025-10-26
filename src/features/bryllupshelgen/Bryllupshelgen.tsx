@@ -1,5 +1,6 @@
 import React from "react";
 import "./bryllupshelgen.css";
+import kart from "../../assets/kart.png";
 
 export const Bryllupshelgen: React.FC = () => {
   return (
@@ -29,7 +30,11 @@ export const Bryllupshelgen: React.FC = () => {
           hele dagen og etter hvert jobbe med å rigge ned etter festen.
         </p>
       </div>
-      <div className="kart">KART</div>
+      <div className="kartContainer">
+        <div className="kart">
+          <img src={kart} alt="kartbilde" />
+        </div>
+      </div>
     </div>
   );
 };

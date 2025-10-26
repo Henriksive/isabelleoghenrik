@@ -5,6 +5,7 @@ import bilde1 from "../../assets/1.jpg";
 import bilde2 from "../../assets/2.jpg";
 import bilde3 from "../../assets/3.jpg";
 import bilde4 from "../../assets/4.jpg";
+import blomst from "../../assets/blomst.png";
 
 export function Root() {
   const location = useLocation();
@@ -22,7 +23,9 @@ export function Root() {
   return (
     <>
       <div className="header">
-        <div className="blomst">Blomst</div>
+        <div className="blomst">
+          <img src={blomst} alt="blomst" />
+        </div>
         <div className="linkContainer">
           {links.map((link) => {
             const isActive =
@@ -39,7 +42,9 @@ export function Root() {
             );
           })}
         </div>
-        <div className="blomst">Blomst</div>
+        <div className="blomst">
+          <img src={blomst} alt="blomst" />
+        </div>
       </div>
       <div className="bilderad">
         <img src={bilde1} alt="Bryllupsbilde" />

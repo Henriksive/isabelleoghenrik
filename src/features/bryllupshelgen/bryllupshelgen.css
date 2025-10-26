@@ -1,5 +1,17 @@
+.kartContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
 .kart {
-  width: 400px;
-  height: 400px;
-  background-color: white;
+  width: 800px;
+}
+
+.kart img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* behold proporsjoner uten å beskjære */
+  display: block; /* fjerner små mellomrom under bildet */
 }
