@@ -1,0 +1,10 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li::before {
+  content: "✿";
+  margin-right: 8px;
+  color: #7ec47a;
+}

@@ -8,27 +8,27 @@ export const Bryllupshelgen: React.FC = () => {
       <div className="subFrame">
         <h2>Fredag</h2>
         <p>
-          Vi inviterer til bli-kjent-kveld på tunet og håper at mange vil komme
-          på låvequiz med snacks og drikke slik at alle kan bli litt bedre kjent
-          med hverandre. Vi har bestilt varmt vær, men ta med varme klær og
-          ullgenser. Vi stiller med snacks og drikke.
+          Vi starter feiringen allerede fredag, og håper så mange som mulig får
+          vært med på en bli-kjent-kveld på tunet på Grøtta fra klokken 17:00!
+          Vi serverer enkel varmmat og det blir etter hvert låvequiz med snacks
+          og noe godt i glasset. Låven er uisolert, kle deg etter været.
         </p>
         <h2>Lørdag</h2>
         <p>
-          Vielsen finner sted ved XXX klokken ZZ:YY. Parkering tilgjengelig ved:
-          Google Maps
-        </p>
-        <p>
-          Mottakelsen av brudeparet skjer på XXX klokken ZZ:YY. Parkering
-          tilgjengelig ved: Google Maps
+          Vielsen finner sted i Hen kirke klokken 13.00. Etter vielsen finner
+          gjestene tilbake til tunet på Grøtta. Her blir det servert
+          forfriskninger mens brudeparet fotograferes og man venter på deres
+          ankomst. Middagen serveres fra 17:30 og etter maten åpner dansegulvet
+          og baren på låven.
         </p>
         <h2>Søndag</h2>
         <p>
-          Det blir en frivillig debrief etter dagen og natten ved XXX fra og med
-          klokken ZZ:YY for de som ønsker.
+          Alle som vil stikke innom dagen derpå er hjertelig velkomne til å
+          komme til tunet for å spise rester, spille hagespill, ta badstu på
+          låven eller bare henge og debriefe festen. De nygifte vil være her
+          hele dagen og etter hvert jobbe med å rigge ned etter festen.
         </p>
       </div>
-
       <div className="kart">KART</div>
     </div>
   );
