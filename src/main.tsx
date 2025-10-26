@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import { Bryllupshelgen } from "./features/bryllupshelgen/Bryllupshelgen.tsx";
 import { Root } from "./features/root/Root.tsx";
 import { RootPage } from "./features/root/RootPage.tsx";
@@ -12,24 +12,19 @@ import { PraktiskInforsmasjon } from "./features/praktisk/PraktiskInformasjon.ts
 const rootElement = document.getElementById("root");
 const root = ReactDOM.createRoot(rootElement as HTMLElement);
 
-const router = createBrowserRouter(
-  [
-    {
-      path: "/",
-      element: <Root />,
-      children: [
-        { path: "", element: <RootPage /> },
-        { path: "bryllupshelgen", element: <Bryllupshelgen /> },
-        { path: "lokasjon", element: <Lokasjon /> },
-        { path: "overnatting", element: <Overnatting /> },
-        { path: "praktisk", element: <PraktiskInforsmasjon /> },
-      ],
-    },
-  ],
+const router = createHashRouter([
   {
-    basename: "/isabelleoghenrik", // 👈 legg til denne linjen
-  }
-);
+    path: "/",
+    element: <Root />,
+    children: [
+      { path: "", element: <RootPage /> },
+      { path: "bryllupshelgen", element: <Bryllupshelgen /> },
+      { path: "lokasjon", element: <Lokasjon /> },
+      { path: "overnatting", element: <Overnatting /> },
+      { path: "praktisk", element: <PraktiskInforsmasjon /> },
+    ],
+  },
+]);
 
 root.render(
   <React.StrictMode>
