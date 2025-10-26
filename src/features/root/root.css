@@ -12,7 +12,9 @@
 }
 
 .header {
-  background-color: blue;
+  background-color: grey;
   height: 70px;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
 }
