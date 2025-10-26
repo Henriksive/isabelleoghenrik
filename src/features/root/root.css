@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  width: 800px;
+  width: 90%;
 }
 
 .bilderad {
@@ -26,12 +26,36 @@
   object-position: top center; /* Øverste del av bildet vises */
 }
 
+@media (max-width: 700px) {
+  .bilderad {
+    display: none;
+  }
+
+  .header .blomst {
+    display: none;
+  }
+  .header {
+    flex-direction: column;
+    height: auto;
+  }
+  .header .linkContainer {
+    width: 100%;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+  }
+  .header .blomst {
+    margin-bottom: 0.5rem;
+  }
+}
+
 .header {
-  height: 70px;
   text-align: center;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap; /* tillater at elementene går til neste linje */
+  padding: 1rem 0; /* litt luft over og under */
 }
 
 .header .linkContainer a {
