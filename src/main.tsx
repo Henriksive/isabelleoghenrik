@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App.tsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Bryllupshelgen } from "./features/bryllupshelgen/Bryllupshelgen.tsx";
 import { Root } from "./features/root/Root.tsx";
