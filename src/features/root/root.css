@@ -7,14 +7,57 @@
 }
 
 .bilderad {
-  background-color: white;
-  height: 300px;
+  display: flex;
+  width: 100%;
+  height: 200px;
+}
+
+.bilderad img {
+  flex: 1; /* hvert bilde tar lik plass i raden */
+  height: 100%;
+  object-fit: cover; /* beskjærer bildet for å fylle høyden/bredden */
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: block; /* fjerner hvite mellomrom */
+}
+
+.bilderad img.top-center {
+  object-position: top center; /* Øverste del av bildet vises */
 }
 
 .header {
-  background-color: grey;
   height: 70px;
   text-align: center;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .linkContainer a {
+  display: inline-block;
+  color: #1b311a; /* Sets the link color */
+  text-decoration: none; /* Removes the default underline */
+  font-weight: bold; /* Makes the text bold */
+}
+
+.header .linkContainer a:hover {
+  color: #7ec47a; /* Sets the link color */
+  text-decoration: none; /* Removes the default underline */
+  font-weight: bold; /* Makes the text bold */
+}
+
+.header .linkContainer a.active {
+  border-bottom: 2px solid #7ec47a; /* understrek aktiv lenke */
+  padding-bottom: 2px; /* litt luft til understrek */
+}
+
+.header .blomst {
+}
+
+.header .linkContainer {
+  display: flex;
+  justify-content: center;
+  width: 650px;
   justify-content: space-between;
 }
