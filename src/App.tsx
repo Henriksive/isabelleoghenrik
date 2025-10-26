@@ -1,6 +1,6 @@
-import "./App.css";
+// import "./App.css";
 
-function App() {
+export function App() {
   return (
     <>
       <div className="frame">
@@ -15,7 +15,7 @@ function App() {
           <p>
             Vi inviterer på låvequiz med snacks og drikke slik at alle kan bli
             litt bedre kjent med hverandre. Vi har bestilt varmt vær, men ta med
-            varme klær og ullgenser.
+            varme klær og ullgenser. Vi stiller med snacks og drikke.
           </p>
           <h4>Lørdag</h4>
           <p>
@@ -52,7 +52,7 @@ function App() {
           </p>
           <h4>Hotell</h4>
           <p>
-            Åndalsnes har sitt helt egne Grand Hotell. I tillegg er det Frichs
+            Åndalsnes har sitt helt egen Grand Hotell. I tillegg er det Frichs
             ekspresshotell som ligger på kjøpesenteret.
             <br />
             <a href="https://www.booking.com/hotel/no/grand-bellevue.no.html?aid=1288378&label=metagha-link-MRNO-hotel-302763_dev-desktop_los-1_bw-7_dow-Tuesday_defdate-1_room-0_gstadt-2_rateid-public_aud-0_gacid-21411124319_mcid-10_ppa-0_clrid-0_ad-1_gstkid-0_checkin-20250107_ppt-Co_lp-2578_r-16846583365757144399&sid=5a50fd4ef1b9222bc4565da8bd5eb2dd&all_sr_blocks=30276304_201687626_2_1_0_376383&checkin=2025-01-07&checkout=2025-01-08&dest_id=-251206&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=30276304_201687626_2_1_0_376383&hpos=1&matching_block_id=30276304_201687626_2_1_0_376383&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=30276304_201687626_2_1_0_376383_145860&srepoch=1735664547&srpvid=47ef77d0d9a108c3&type=total&ucfs=1&">
@@ -86,9 +86,9 @@ function App() {
           <p>
             Det er flere gode reisemuligheter til Isfjorden/Åndalsnes. Det er
             imidlertid lite kollektivtilbud innad i kommunen, så dersom man ikke
-            kommer i egen bil kan det være lurt å vite at det er mulighet for
-            intern transport ved å sitte på i andre biler. Ta kontakt med oss
-            dersom du er usikker!
+            kommer i egen bil kan det være lurt å sjekke opp om det er mulighet
+            for intern transport ved å sitte på i andre biler. Ta kontakt med
+            oss dersom du er usikker!
           </p>
           <p>
             <h4>Bil</h4>
@@ -96,7 +96,7 @@ function App() {
             <h4>Tog</h4>
             <p>
               Det går tog fra Dombås til Åndalsnes som korresponderer med
-              Trondhjemsbanen.
+              Trondheimsbanen.
             </p>
             <h4>Fly</h4>
             <p>
@@ -109,10 +109,22 @@ function App() {
         </div>
         <div className="subFrame">
           <h3>Kleskode</h3>
+          <h4>Fredag</h4>
+          <p>
+            Ull er gull. Klær til å kunne sitte innendørs på en låve og
+            potensielt ta seg en luftepause i.
+          </p>
+          <h4>Lørdag</h4>
+          <p>Dress ☀️</p>
         </div>
       </div>
       <div className="frame">
         <h2>Kontaktinformasjon</h2>
+        <h3>Brudeparet</h3>
+        <p>
+          Henrik: 995 28 979 <br /> Isabelle: 902 19 064
+        </p>
+        <h3>Toastmaster</h3>
       </div>
       <div className="frame">
         <h2>Ønskeliste</h2>
