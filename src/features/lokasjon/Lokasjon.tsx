@@ -27,12 +27,12 @@ export const Lokasjon: React.FC = () => {
       <p>
         Det tar 5 timer og 30 minutter å kjøre til Isfjorden fra Oslo. For andre
         kan kjøreturen fort bli en god del lengre og vi kan anbefale å gjøre det
-        til en del av ferieturen.
+        til en liten ferietur.
       </p>
       <h2>Tog</h2>
       <p>
         Det går tog fra Dombås til Åndalsnes som korresponderer med Dovrebanen
-        (altså tog fra Oslo, Gardermoen eller Trondheim). Her anbefaler vi
+        (altså tog fra Oslo/Gardermoen/Trondheim). Her anbefaler vi
         vindusplass så man får nyte utsikten ned Romsdalen!
       </p>
       <h2>Fly</h2>

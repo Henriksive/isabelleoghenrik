@@ -1,6 +1,6 @@
 import React from "react";
 import "./bryllupshelgen.css";
-import kart from "../../assets/kart2.png";
+import kart from "../../assets/kart3.png";
 
 export const Bryllupshelgen: React.FC = () => {
   return (
@@ -11,17 +11,15 @@ export const Bryllupshelgen: React.FC = () => {
       <div className="subFrame">
         <h2>Fredag 3. juli</h2>
         <p>
-          Vi starter feiringen allerede fredag, og håper så mange som mulig får
-          vært med på en bli-kjent-kveld på tunet på Grøtta fra klokken 17:00!
+          Vi starter feiringen fredag og håper så mange som mulig kommer på en bli-kjent-kveld på tunet på Grøtta fra klokken 17:00!
           Vi serverer enkel varmmat og det blir etter hvert låvequiz med snacks
           og noe godt i glasset. Låven er uisolert, kle deg etter været.
         </p>
         <h2>Lørdag 4. juli</h2>
         <p>
-          Vielsen finner sted i Hen kirke klokken 13.00. Etter vielsen finner
-          gjestene tilbake til tunet på Grøtta. Her blir det servert
-          forfriskninger mens brudeparet fotograferes og man venter på deres
-          ankomst. Middagen serveres fra 17:30 og etter maten åpner dansegulvet
+          Vielsen finner sted i Hen kirke klokken 13:00. Etter vielsen blir det servert
+          forfriskninger på tunet på Grøtta mens brudeparet fotograferes og man venter på deres
+          ankomst. Middagen serveres fra ca. 17:00. Etter maten åpner dansegulvet
           og baren på låven.
         </p>
         <h2>Søndag 5. juli</h2>

@@ -6,8 +6,8 @@ export const Overnatting: React.FC = () => {
       <h1>Overnatting</h1>
       <h2>Hotell</h2>
       <p>
-        Vi anbefaler Åndalsnes helt eget Grand Hotell. Her har vi holdt av 10 rom til gjester i tilfelle det skulle bli fullt. Så lenge det er ledige dobbeltrom her 
-        ber vi dere booke selv, men gi beskjed dersom det ikke er flere tilgjengelig, så kan vi tildele dere et av de vi har reservert. I tillegg er det Frich´s
+        Vi anbefaler Åndalsnes sitt helt egne Grand Hotell. Her har vi holdt av 10 rom til gjester i tilfelle det skulle bli fullt. Så lenge det er ledige dobbeltrom her 
+        ber vi dere booke selv, men <u>gi beskjed dersom det ikke er flere tilgjengelig</u>, så kan vi tildele dere et vi har reservert. I tillegg er det Frich´s
         ekspresshotell som ligger sentralt til på kjøpesenteret.
         <br />
         <a href="https://grandhotel.no/" target="_blank" rel="noopener noreferrer">
@@ -23,13 +23,13 @@ export const Overnatting: React.FC = () => {
         Det er flere gode campingplasser med campinghytter og
         hytteutleie i området.
         <br />
+        <a href="https://www.andalsnes-camping.net/" target="_blank" rel="noopener noreferrer">Åndalsnes Camping</a>
+        <br />
         <a href="https://andalsnes-hytteutleie.no/" target="_blank" rel="noopener noreferrer">
           Åndalsnes hytteutleie
         </a>
         <br />
         <a href="https://www.visitsetnes.com/" target="_blank" rel="noopener noreferrer">Setnes Feriesenter</a>
-        <br />
-        <a href="https://www.andalsnes-camping.net/" target="_blank" rel="noopener noreferrer">Åndalsnes Camping</a>
         <br />
         <a href="https://korsbakkencamp.wixsite.com/korsbakkencamping" target="_blank" rel="noopener noreferrer">
           Korsbakken Camping
@@ -55,9 +55,9 @@ export const Overnatting: React.FC = () => {
         <a href="https://www.airbnb.no/rooms/14363403?check_in=2026-07-03&check_out=2026-07-05&location=Isfjorden&search_mode=regular_search&source_impression_id=p3_1766873259_P3XUG5x9vcfzyzP0&previous_page_section_name=1001&federated_search_id=6d300e9e-603a-4c11-9db1-3d73755efe93" target="_blank" rel="noopener noreferrer">"Clara House"</a>
       </p>
       <p>
-        I tillegg til disse har vi allerede reservert 3 minihus litt lengre unna (3 minutter med bil). Ta kontakt med Isabelle dersom dere ønsker å bo i ett av disse.
+        I tillegg til disse har vi allerede reservert 3 minihus litt lengre unna (3 minutter med bil). Ta kontakt med Isabelle dersom dere ønsker å bo i ett av disse:
         <br />
-        <a href="https://www.booking.com/hotel/no/kavliskogen-panorama-278.no.html?label=gen173nr-10CAEoggI46AdIM1gEaKoBiAEBmAEzuAEHyAEM2AED6AEB-AEBiAIBqAIBuAKGssHKBsACAdICJDJmYTg2ZDE4LTY4MWItNDYxMi05OGVjLTEyOGJhNmY5YmZiMtgCAeACAQ&aid=304142&ucfs=1&dest_id=900054855&dest_type=city&group_adults=2&no_rooms=1&group_children=0&srpvid=fb66fd9389dddab49570b7cf80648739&srepoch=1766873371&atlas_src=sr_iw_title" target="_blank" rel="noopener noreferrer">Kavli Panorama</a>
+        <a href="https://www.booking.com/hotel/no/kavliskogen-panorama-278.no.html?label=gen173nr-10CAEoggI46AdIM1gEaKoBiAEBmAEzuAEHyAEM2AED6AEB-AEBiAIBqAIBuAKGssHKBsACAdICJDJmYTg2ZDE4LTY4MWItNDYxMi05OGVjLTEyOGJhNmY5YmZiMtgCAeACAQ&aid=304142&ucfs=1&dest_id=900054855&dest_type=city&group_adults=2&no_rooms=1&group_children=0&srpvid=fb66fd9389dddab49570b7cf80648739&srepoch=1766873371&atlas_src=sr_iw_title" target="_blank" rel="noopener noreferrer">Kavliskogen Panorama</a>
       </p>
     </div>
   );
