@@ -66,19 +66,20 @@
 
 .header .linkContainer a {
   display: inline-block;
-  color: #1b311a; /* Sets the link color */
+  color: #5a5146;
   text-decoration: none; /* Removes the default underline */
   font-weight: bold; /* Makes the text bold */
 }
 
 .header .linkContainer a:hover {
-  color: #7ec47a; /* Sets the link color */
+  color: #8a4b3c;
   text-decoration: none; /* Removes the default underline */
   font-weight: bold; /* Makes the text bold */
 }
 
 .header .linkContainer a.active {
-  border-bottom: 2px solid #7ec47a; /* understrek aktiv lenke */
+  color: #8a4b3c;
+  border-bottom: 2px solid #8a4b3c; /* understrek aktiv lenke */
   padding-bottom: 2px; /* litt luft til understrek */
 }
 
@@ -99,4 +100,19 @@
   justify-content: center;
   justify-content: space-between;
   width: 50%;
+}
+
+a {
+  /*color: #4a5d73;*/
+  /*color: #5a5146;*/
+  color: #8a4b3c;
+  /*color: #5b6b4a;*/
+    text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+a:hover,
+a:focus {
+  color: #6f3b2f;
 }
