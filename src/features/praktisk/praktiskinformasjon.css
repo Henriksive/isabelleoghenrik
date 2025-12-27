@@ -6,6 +6,5 @@ ul {
 ul li::before {
   content: "✿";
   margin-right: 8px;
-  color: #7ec47a;
   color: #8a4b3c;
 }
