@@ -7,5 +7,5 @@
   # Mappen som skal publiseres
   publish = "dist"
   
-  # Ignore builds hvis commit-melding ikke inneholder "[deploy]"
-  ignore = "git log -1 --pretty=%B | grep -q '\\[deploy\\]' || exit 0"
+  # Ignore builds hvis commit-melding ikke inneholder ordet "deploy"
+  ignore = "git log -1 --pretty=%B | grep -iq 'deploy' || exit 0"
