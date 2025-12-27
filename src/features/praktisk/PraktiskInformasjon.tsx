@@ -10,7 +10,7 @@ export const PraktiskInforsmasjon: React.FC = () => {
         <b>Fredag:</b> Praktiske klær etter vær og vind.
       </p>
       <p>
-        <b>Lørdag:</b> Sommerlig pent. Pynt deg slik du ønsker: mørk dress, lys dress eller bukse med blazer. Alle velkomne. 
+        <b>Lørdag:</b> Sommerlig pent. Pynt deg slik du ønsker: mørk dress, lys dress eller bukse med blazer.
       </p>
       <h2>Toastmaster og taler</h2>
       <p>
@@ -20,18 +20,18 @@ export const PraktiskInforsmasjon: React.FC = () => {
       <h2>Transport til og fra Tunet</h2>
       <p>
         Som nevnt er det ikke god kollektivtransport i området. Bor du i
-        Isfjorden er det mulig å gå til og fra tunet (20 minutter). Det er også
+        Isfjorden er det mulig å gå til og fra tunet (ca. 20 minutter). Det er også
         et taxiselskap på Åndalsnes. Noen gjester vil kanskje være kjørbare og i
         så fall håper vi at dere kan ta medpassasjerer om det passer slik. På
         selve bryllupsfesten vil også noen kjentfolk være parat for å kjøre folk
-        dit de skal når de skal hjem (sent på natta!).
+        hjem sent på natta!
       </p>
       <h2>Nyt sommeren i Romsdalen!</h2>
       <p>
-        Dersom noen gjester ønsker å utnytte anledningen til å se mer i området,
+        Dersom noen gjester ønsker å benytte anledningen til å se mer i området,
         spør oss om tips! Selv vil vi være i området uken etter bryllupet, og
         guider svært gjerne venner og familie på store og små opplevelser
-        lokalt. Ellers har vi samlet noen lenker til aktiviteter under, for at
+        lokalt. Ellers har vi samlet noen aktiviteter under, for at
         dere skal kunne få med dere det beste fra området på egenhånd dersom
         dere ønsker det!
       </p>
@@ -53,8 +53,7 @@ export const PraktiskInforsmasjon: React.FC = () => {
       <p>
         Vi ønsker oss aller mest at dere som er invitert har anledning til å
         komme, og vet at mange har lang (og kostbar) reisevei. Dersom dere
-        likevel ønsker å ha med gave, er vi alltid glade for hjemmelagde, solide
-        ting. Utover det har vi samlet en liste til dere som liker å ha det mer
+        <i> likevel </i> ønsker å ha med gave, er vi alltid glade for hjemmelagde ting og opplevelser i Norge. Utover det har vi samlet en liste til dere som liker å ha det mer
         konkret. Se under.
       </p>
     </div>
