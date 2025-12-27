@@ -1,6 +1,6 @@
 import React from "react";
 import "./bryllupshelgen.css";
-import kart from "../../assets/kart.png";
+import kart from "../../assets/kart2.png";
 
 export const Bryllupshelgen: React.FC = () => {
   return (
@@ -35,6 +35,7 @@ export const Bryllupshelgen: React.FC = () => {
           <img src={kart} alt="kartbilde" />
         </div>
       </div>
+      <a href={kart} target="_blank" rel="noopener noreferrer"><i>Se kartet i stort format</i></a>
     </div>
   );
 };
