@@ -5,16 +5,18 @@ import kart from "../../assets/kart2.png";
 export const Bryllupshelgen: React.FC = () => {
   return (
     <div>
-      <h1>Program for helgen</h1>
+      <h1>Velkommen til Romsdalen</h1>
+      <p>Vi gleder oss til å dele helgen med dere!</p>
+      <h1>Program</h1>
       <div className="subFrame">
-        <h2>Fredag</h2>
+        <h2>Fredag 3. juli</h2>
         <p>
           Vi starter feiringen allerede fredag, og håper så mange som mulig får
           vært med på en bli-kjent-kveld på tunet på Grøtta fra klokken 17:00!
           Vi serverer enkel varmmat og det blir etter hvert låvequiz med snacks
           og noe godt i glasset. Låven er uisolert, kle deg etter været.
         </p>
-        <h2>Lørdag</h2>
+        <h2>Lørdag 4. juli</h2>
         <p>
           Vielsen finner sted i Hen kirke klokken 13.00. Etter vielsen finner
           gjestene tilbake til tunet på Grøtta. Her blir det servert
@@ -22,7 +24,7 @@ export const Bryllupshelgen: React.FC = () => {
           ankomst. Middagen serveres fra 17:30 og etter maten åpner dansegulvet
           og baren på låven.
         </p>
-        <h2>Søndag</h2>
+        <h2>Søndag 5. juli</h2>
         <p>
           Alle som vil stikke innom dagen derpå er hjertelig velkomne til å
           komme til tunet for å spise rester, spille hagespill, ta badstu på
