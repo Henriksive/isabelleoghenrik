@@ -1,11 +1,14 @@
 # netlify.toml
 
 [build]
-  # Kommando som bygger prosjektet
   command = "npm run build"
-  
-  # Mappen som skal publiseres
   publish = "dist"
-  
-  # Ignore builds hvis commit-melding ikke inneholder ordet "deploy"
-  ignore = "git log -1 --pretty=%B | grep -iq 'deploy' || exit 0"
+  ignore = """
+if git log -1 --pretty=%B | grep -iq deploy; then
+  echo 'Deploy trigger found → building'
+  exit 1
+else
+  echo 'No deploy trigger → skipping build'
+  exit 0
+fi
+"""
