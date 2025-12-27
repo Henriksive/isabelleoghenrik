@@ -26,6 +26,10 @@
   object-position: top center; /* Øverste del av bildet vises */
 }
 
+ .mobilbilde {
+  display: none;
+}
+
 @media (max-width: 700px) {
   .bilderad {
     display: none;
@@ -52,6 +56,22 @@
   }
   .header .blomst {
     margin-bottom: 0.5rem;
+  }
+
+  .mobilbilde {
+    display: flex;
+    background-color: red;
+    height: 200px;
+  }
+
+  .mobilbilde img {
+    flex: 1; /* hvert bilde tar lik plass i raden */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    object-fit: cover; /* beskjærer bildet for å fylle høyden/bredden */
+    display: block; /* fjerner hvite mellomrom */
   }
 }
 
@@ -103,11 +123,8 @@
 }
 
 a {
-  /*color: #4a5d73;*/
-  /*color: #5a5146;*/
   color: #8a4b3c;
-  /*color: #5b6b4a;*/
-    text-decoration: underline;
+  text-decoration: underline;
   text-underline-offset: 3px;
   text-decoration-thickness: 1px;
 }

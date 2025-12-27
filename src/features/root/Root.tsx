@@ -53,6 +53,9 @@ export function Root() {
         <img src={bilde3} alt="Bryllupsbilde" />
         <img src={bilde4} alt="Bryllupsbilde" />
       </div>
+      <div className="mobilbilde">
+        <img src={bilde4} alt="Bryllupsbilde" />
+      </div>
       <div className="ramme">
         <Outlet />
       </div>
