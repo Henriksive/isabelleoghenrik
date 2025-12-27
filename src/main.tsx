@@ -8,6 +8,7 @@ import { RootPage } from "./features/root/RootPage.tsx";
 import { Lokasjon } from "./features/lokasjon/Lokasjon.tsx";
 import { Overnatting } from "./features/overnatting/Overnatting.tsx";
 import { PraktiskInforsmasjon } from "./features/praktisk/PraktiskInformasjon.tsx";
+import { Rsvp } from "./features/rsvp/rsvp.tsx";
 
 const rootElement = document.getElementById("root");
 const root = ReactDOM.createRoot(rootElement as HTMLElement);
@@ -17,11 +18,12 @@ const router = createHashRouter([
     path: "/",
     element: <Root />,
     children: [
-      { path: "", element: <RootPage /> },
+      { path: "", element: <Bryllupshelgen /> },
       { path: "bryllupshelgen", element: <Bryllupshelgen /> },
       { path: "lokasjon", element: <Lokasjon /> },
       { path: "overnatting", element: <Overnatting /> },
       { path: "praktisk", element: <PraktiskInforsmasjon /> },
+      { path: "rsvp", element: <Rsvp /> }
     ],
   },
 ]);

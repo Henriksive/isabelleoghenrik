@@ -13,11 +13,12 @@ export function Root() {
   const actualLocation = location.pathname.substring(1).toLowerCase();
 
   const links = [
-    { to: "/", label: "Hjem" },
+    // { to: "/", label: "Hjem" },
     { to: "bryllupshelgen", label: "Bryllupshelgen" },
     { to: "lokasjon", label: "Lokasjon" },
     { to: "overnatting", label: "Overnatting" },
     { to: "praktisk", label: "Praktisk informasjon" },
+    { to: "rsvp", label: "Svar på invitasjon (RSVP)"}
   ];
 
   return (
@@ -29,7 +30,7 @@ export function Root() {
         <div className="linkContainer">
           {links.map((link) => {
             const isActive =
-              (link.to === "/" && actualLocation === "") ||
+              (link.to.toLowerCase() === "bryllupshelgen" && actualLocation === "") ||
               actualLocation === link.to.toLowerCase();
             return (
               <Link
