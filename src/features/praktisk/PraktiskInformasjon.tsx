@@ -7,14 +7,15 @@ export const PraktiskInforsmasjon: React.FC = () => {
       <h1>Praktisk informasjon</h1>
       <h2>Kleskode</h2>
       <p>
-        Vi ønsker oss en skikkelig sommerfest og at alle har lyst til å pynte
-        seg, men kom i det du selv synes er fint! Brudeparet vil ha brudekjole
-        og mørk dress.
+        <b>Fredag:</b> Praktiske klær etter vær og vind.
+      </p>
+      <p>
+        <b>Lørdag:</b> Sommerlig pent. Pynt deg slik du ønsker: mørk dress, lys dress eller bukse med blazer er alle velkomne. 
       </p>
       <h2>Toastmaster og taler</h2>
       <p>
         Lørdagens toastmaster er Ellinor Løkling. Send sms/ring xxxxxxxx dersom
-        du ønsker å være med på talelisten.
+        du ønsker å være med på talelisten eller andre innslag.
       </p>
       <h2>Transport til og fra Tunet</h2>
       <p>
