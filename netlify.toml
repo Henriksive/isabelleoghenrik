@@ -1,0 +1,11 @@
+# netlify.toml
+
+[build]
+  # Kommando som bygger prosjektet
+  command = "npm run build"
+  
+  # Mappen som skal publiseres
+  publish = "dist"
+  
+  # Ignore builds hvis commit-melding ikke inneholder "[deploy]"
+  ignore = "git log -1 --pretty=%B | grep -q '\\[deploy\\]' || exit 0"
