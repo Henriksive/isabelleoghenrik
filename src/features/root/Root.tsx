@@ -18,7 +18,7 @@ export function Root() {
     { to: "lokasjon", label: "Lokasjon" },
     { to: "overnatting", label: "Overnatting" },
     { to: "praktisk", label: "Praktisk informasjon" },
-    { to: "rsvp", label: "Svar på invitasjon (RSVP)"}
+    { to: "rsvp-a876d", label: "Svar på invitasjon (RSVP)"}
   ];
 
   return (

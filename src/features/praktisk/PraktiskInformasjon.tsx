@@ -10,7 +10,7 @@ export const PraktiskInforsmasjon: React.FC = () => {
         <b>Fredag:</b> Praktiske klær etter vær og vind.
       </p>
       <p>
-        <b>Lørdag:</b> Sommerlig pent. Pynt deg slik du ønsker: mørk dress, lys dress eller bukse med blazer.
+        <b>Lørdag:</b> Sommerlig pent. Pynt deg slik du ønsker: mørk dress, lys dress, bunad eller bukse med blazer .
       </p>
       <h2>Toastmaster og taler</h2>
       <p>
