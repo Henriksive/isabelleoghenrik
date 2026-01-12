@@ -14,7 +14,7 @@ export const PraktiskInforsmasjon: React.FC = () => {
       </p>
       <h2>Toastmaster og taler</h2>
       <p>
-        Lørdagens toastmaster er Ellinor Løkling. Send sms/ring xxxxxxxx dersom
+        Lørdagens toastmaster er Didrik Sæther. Send sms/ring 904 04 090 dersom
         du ønsker å være med på talelisten eller andre innslag.
       </p>
       <h2>Transport til og fra Tunet</h2>
