@@ -20,8 +20,7 @@ export const Lokasjon: React.FC = () => {
       <p>
         Det finnes flere alternativer for å komme seg til Åndalsnes og
         Isfjorden. Dersom man ikke kommer i bil er det lurt å koordinere med
-        andre som gjør det, eller å leie seg bil. Kollektivtilbudet er ikke på
-        Oslo-nivå.
+        andre som gjør det, eller å leie seg bil.
       </p>
       <h2>Bil</h2>
       <p>
@@ -32,8 +31,8 @@ export const Lokasjon: React.FC = () => {
       <h2>Tog</h2>
       <p>
         Det går tog fra Dombås til Åndalsnes som korresponderer med Dovrebanen
-        (altså tog fra Oslo/Gardermoen/Trondheim). Her anbefaler vi
-        vindusplass så man får nyte utsikten ned Romsdalen!
+        (altså tog fra Oslo/Gardermoen/Trondheim). Her anbefaler vi vindusplass
+        så man får nyte utsikten ned Romsdalen!
       </p>
       <h2>Fly</h2>
       <p>
