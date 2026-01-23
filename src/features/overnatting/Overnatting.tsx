@@ -52,14 +52,15 @@ export const Overnatting: React.FC = () => {
         </a>
       </p>
       <p>
-        Under har vi dessuten samlet de som ligger nærmest "Tunet på Grøtta".
+        Under har vi dessuten samlet de som ligger i grei avstand til "Tunet på
+        Grøtta".
         <br />
         <a
-          href="https://www.airbnb.no/rooms/27440484?check_in=2026-07-03&check_out=2026-07-05&search_mode=regular_search&source_impression_id=p3_1766872991_P3qAN8OahqYcpfQr&previous_page_section_name=1000&federated_search_id=ceb0ac63-4607-4115-8cc0-20066e7bdedb"
+          href="https://www.airbnb.no/rooms/1261415230897876068?check_in=2026-07-03&search_mode=regular_search&source_impression_id=p3_1769206616_P3Vp9CCudQWYsTXa&previous_page_section_name=1000&federated_search_id=58339763-d30a-4211-8a49-3050e7aeda59&guests=1&adults=1&check_out=2026-07-06"
           target="_blank"
           rel="noopener noreferrer"
         >
-          "Leilighet i Isfjorden"
+          "Hus med spektakulær utsikt"
         </a>
         <br />
         <a
@@ -84,6 +85,46 @@ export const Overnatting: React.FC = () => {
           rel="noopener noreferrer"
         >
           "Clara House"
+        </a>
+        <br />
+        <a
+          href="https://www.airbnb.no/rooms/607229560897861872?check_in=2026-07-03&search_mode=regular_search&source_impression_id=p3_1769206616_P3n_luni4cxVpLSr&previous_page_section_name=1000&federated_search_id=58339763-d30a-4211-8a49-3050e7aeda59&guests=1&adults=1&check_out=2026-07-05"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          "Fagertun – solrikt hus i Isfjorden"
+        </a>
+        <br />
+        <a
+          href="https://www.airbnb.no/rooms/1329598321417030001?search_mode=regular_search&source_impression_id=p3_1769206616_P36asg1s671jwhYg&previous_page_section_name=1000&federated_search_id=58339763-d30a-4211-8a49-3050e7aeda59&guests=1&adults=1&check_in=2026-07-02&check_out=2026-07-05"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          "Fjellvåk Isfjorden"
+        </a>
+        <br />
+        <a
+          href="https://www.airbnb.no/rooms/1303532488016220601?check_in=2026-07-03&check_out=2026-07-05&search_mode=regular_search&source_impression_id=p3_1769206616_P3eNXFJCwMvUdqkX&previous_page_section_name=1000&federated_search_id=58339763-d30a-4211-8a49-3050e7aeda59&guests=1&adults=1"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          "Ski inn/ski ut Leilighet"
+        </a>
+        <br />
+        <a
+          href="https://www.airbnb.no/rooms/1162020803844294359?check_in=2026-07-03&check_out=2026-07-05&search_mode=regular_search&source_impression_id=p3_1769207352_P3nmfu-j8uMNwkJL&previous_page_section_name=1000&federated_search_id=7c3e194e-37c1-4843-9894-59a5f627ce0c&guests=1&adults=1"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          "Moderne hus med nordisk stil"
+        </a>
+        <br />
+        <a
+          href="https://www.airbnb.no/rooms/34855670?check_in=2026-07-03&check_out=2026-07-05&search_mode=regular_search&source_impression_id=p3_1769207436_P3iretZmfDAQ8uov&previous_page_section_name=1000&federated_search_id=58339763-d30a-4211-8a49-3050e7aeda59&guests=1&adults=1"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          "Flott enebolig med fantastisk utsikt og jacuzzi"
         </a>
       </p>
       <p>
