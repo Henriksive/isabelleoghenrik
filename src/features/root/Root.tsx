@@ -18,6 +18,7 @@ export function Root() {
     { to: "lokasjon", label: "Lokasjon" },
     { to: "overnatting", label: "Overnatting" },
     { to: "praktisk", label: "Praktisk informasjon" },
+    { to: "onskeliste", label: "Ønskeliste" },
     { to: "rsvp-a876d", label: "Svar på invitasjon (RSVP)"}
   ];
 

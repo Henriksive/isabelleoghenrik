@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./praktiskinformasjon.css";
 
 export const PraktiskInforsmasjon: React.FC = () => {
@@ -33,7 +34,7 @@ export const PraktiskInforsmasjon: React.FC = () => {
         komme, og vet at mange har lang (og kostbar) reisevei. Dersom dere
         <i> likevel </i> ønsker å ha med gave, er vi alltid glade for
         hjemmelagde ting og opplevelser i Norge. Liker du at vi er mer konkrete
-        enn dette? I løpet av våren vil vi legge ut en ønskeliste her.
+        enn dette? Se <Link to="/onskeliste">ønskelisten vår</Link>.
       </p>
       <h2>Nyt sommeren i Romsdalen!</h2>
       <p>
