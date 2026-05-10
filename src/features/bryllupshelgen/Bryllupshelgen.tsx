@@ -29,7 +29,7 @@ export const Bryllupshelgen: React.FC = () => {
         <h3>Søndag 5. juli</h3>
         <p>
           Alle som vil stikke innom dagen derpå er hjertelig velkomne til å
-          komme til tunet for å spise rester og debriefe festen sammen.. De
+          komme til tunet for å spise rester og debriefe festen sammen. De
           nygifte vil være her og etter hvert jobbe med å rigge ned etter
           festen.
         </p>
