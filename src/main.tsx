@@ -9,7 +9,6 @@ import { Overnatting } from "./features/overnatting/Overnatting.tsx";
 import { PraktiskInforsmasjon } from "./features/praktisk/PraktiskInformasjon.tsx";
 import { Onskeliste } from "./features/onskeliste/Onskeliste.tsx";
 import { Rsvp } from "./features/rsvp/Rsvp.tsx";
-import { RsvpLanding } from "./features/rsvp/RsvpLanding.tsx";
 
 const rootElement = document.getElementById("root");
 const root = ReactDOM.createRoot(rootElement as HTMLElement);
@@ -26,7 +25,6 @@ const router = createHashRouter([
       { path: "praktisk", element: <PraktiskInforsmasjon /> },
       { path: "onskeliste", element: <Onskeliste /> },
       { path: "rsvp-a876d", element: <Rsvp /> },
-      { path: "rsvp-form-a876d", element: <RsvpLanding /> }
     ],
   },
 ]);
@@ -34,5 +32,5 @@ const router = createHashRouter([
 root.render(
   <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>
+  </React.StrictMode>,
 );
