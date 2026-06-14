@@ -44,11 +44,15 @@ export const Bryllupshelgen: React.FC = () => {
         <h3>Lørdag 4. juli</h3>
         <p>
           Vielsen starter i Hen kirke klokken 13:00 og gjester bør være på plass
-          rundt 12:30. I kirken vil vi ha fotograf og ber om at dere holder
-          mobilen i veska. Etter vielsen blir det servert mat og forfriskninger
-          på tunet på Grøtta, mens brudeparet fotograferes og man venter på
-          deres ankomst. Vi forventer å sette oss til bords for middag ca.
-          17:30. Etter maten åpner dansegulvet og baren på låven.
+          rundt 12:30.{" "}
+          <b>
+            I kirken vil vi ha fotograf og ber om at dere holder mobilen i
+            veska.{" "}
+          </b>
+          Etter vielsen blir det servert mat og forfriskninger på tunet på
+          Grøtta, mens brudeparet fotograferes og man venter på deres ankomst.
+          Vi forventer å sette oss til bords for middag ca. 17:30. Etter maten
+          åpner dansegulvet og baren på låven.
         </p>
         <h3>Søndag 5. juli</h3>
         <p>

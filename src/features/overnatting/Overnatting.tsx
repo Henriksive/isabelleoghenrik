@@ -9,7 +9,7 @@ export const Overnatting: React.FC = () => {
         Ettersom vi har planlagt både vielse og fest i Isjorden så anbefaler vi
         å sjekke overnattingsmuligheter der. Da dreier det seg i hovedsak om
         leie av hus/leiligheter. Fra Isfjorden sentrum til Tunet på Grøtta er
-        det ca. 1,5 kilometer – en kort svipptur av enten taxi eller kjentfolk
+        det ca. 1,5 kilometer – en kort svipptur av enten taxi eller kjentfolk
         på natta (
         <Link to={"/praktisk"}>
           les mer under praktisk informasjon – Transport
