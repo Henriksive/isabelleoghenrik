@@ -1,9 +1,9 @@
 name: Build
 
+# Site decommissioned — trigger changed from push-on-main to manual-only.
+# See TEARDOWN.md for details and how to restore.
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   build:

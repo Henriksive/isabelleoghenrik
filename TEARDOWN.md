@@ -23,8 +23,18 @@ Documents the decommissioning of this site and how to bring it back up if needed
 1. Deleted the Netlify site (`remarkable-meerkat-6d0fc3`).
 2. Deleted both DNS records above in Cloudflare.
 3. Domain registration in Cloudflare left untouched — no DNS records remain, domain does not resolve.
+4. Changed `.github/workflows/deploy.yml` trigger from `push` on `main` to `workflow_dispatch` (manual-only), so it no longer runs automatically on every push. The workflow itself is unchanged and can still be run manually from the Actions tab if needed. Code was intentionally left in place (not deleted).
 
 ## How to restore
+
+0. **Re-enable CI (if you want push-to-deploy again)**
+   In `.github/workflows/deploy.yml`, change the trigger back:
+   ```yaml
+   on:
+     push:
+       branches:
+         - main
+   ```
 
 1. **Recreate the Netlify site**
    - In Netlify, create a new site from Git, pointing at this GitHub repo, `main` branch.
